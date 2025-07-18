@@ -1,0 +1,48 @@
+.pinboard {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.note-input {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.note-input input,
+.note-input textarea {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.notes {
+  position: relative;
+}
+
+.note {
+  width: 200px;
+  min-height: 100px;
+  background-color: #fffa87;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  position: absolute;
+  cursor: move;
+}
+
+
+.sticky-note {
+  width: 150px;
+  height: 150px;
+  background-color: #ffff88;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: grab;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+}
